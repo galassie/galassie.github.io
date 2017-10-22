@@ -29,7 +29,6 @@ linkedin:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
