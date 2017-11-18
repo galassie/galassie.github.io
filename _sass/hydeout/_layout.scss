@@ -200,7 +200,7 @@ body {
     }
 
     > * {
-      max-width: 38rem;
+      max-width: 55rem;
       padding: 0;
     }
   }
@@ -266,10 +266,14 @@ body {
 }
 
 #sidebar img.author-image {
-  max-width:100%;
+  max-width:75%;
   
   margin: 0 auto 10px;
   border-radius: 50%;
+  
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
 
   transition: transform 0.35s;              
   &:hover {
