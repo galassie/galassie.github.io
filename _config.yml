@@ -38,7 +38,7 @@ kramdown:
 sidebar_home_link:  true
 
 disqus:
-  shortname: my-disqus-shortname
+  shortname: enricogalassi
 
 paginate: 5
 # Exclude from processing.
