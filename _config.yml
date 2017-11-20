@@ -19,7 +19,7 @@ email: enrico.galassi.88@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog on .NET technologies, software design, development and more.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://galassie.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 github:
   profile:  https://github.com/galassie
@@ -27,15 +27,13 @@ github:
 linkedin:
   profile: https://www.linkedin.com/in/enricogalassi/
 
+github: [metadata]
 repository: galassie/galassie.github.io
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
+kramdown:
+  input: GFM
 
 sidebar_home_link:  true
 
@@ -43,7 +41,6 @@ disqus:
   shortname: my-disqus-shortname
 
 paginate: 5
-paginate_path: "/page:num/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -55,3 +52,8 @@ paginate_path: "/page:num/"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap+
