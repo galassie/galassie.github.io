@@ -35,6 +35,16 @@ body {
   min-height: 100vh;
 }
 
+.copyright {
+  font-size: 75%;
+  font-weight: 400;
+  opacity: .5;
+
+  p {
+    margin: 0;
+  }
+}
+
 #sidebar {
   flex: 0 0 auto;
   padding: $section-spacing;
