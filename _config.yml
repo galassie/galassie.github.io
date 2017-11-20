@@ -30,6 +30,8 @@ linkedin:
 github: [metadata]
 repository: galassie/galassie.github.io
 
+excerpt_length: 50
+
 # Build settings
 markdown: kramdown
 kramdown:
@@ -56,4 +58,4 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-sitemap+
+  - jekyll-sitemap
