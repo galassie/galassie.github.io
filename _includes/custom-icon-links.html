@@ -1,8 +1,16 @@
 <!-- Optional additional links to insert for icons links -->
-{% if site.github.profile %}
+{% if site.author.github %}
+<a id="github-link"
+   class="icon" title="Github Profile" aria-label="Github Profile"
+   href="{{ site.author.github }}">
+  {% include svg/github.svg %}
+</a>
+{% endif %}
+
+{% if site.author.linkedin %}
 <a id="linkedin-link"
    class="icon" title="Linkedin Profile" aria-label="Linkedin Profile"
-   href="{{ site.linkedin.profile }}">
+   href="{{ site.author.linkedin }}">
   {% include svg/linkedin.svg %}
 </a>
 {% endif %}

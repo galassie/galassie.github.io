@@ -2,8 +2,8 @@
   <header>
     <{% if page.layout=="index" %}h1{% else %}div{% endif %} class="site-title">
 
-      {% if site.author-img %}
-      <img class="author-image" src="{{site.baseurl}}/assets/img/{{site.author-img}}">
+      {% if site.author.icon %}
+      <img class="author-icon" src="{{ site.baseurl }}/assets/img/{{ site.author.icon }}">
       {% endif %}
       
       <a href="{{ site.baseurl }}/">
