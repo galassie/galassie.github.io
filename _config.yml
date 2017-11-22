@@ -20,6 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://galassie.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
+  name: Enrico Galassi
   icon: me-icon.png
   email: enrico.galassi.88@gmail.com
   github: https://github.com/galassie
