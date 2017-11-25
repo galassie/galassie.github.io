@@ -90,3 +90,29 @@ h2.post-title, h2.page-title {
 button.disqus-load {
   margin-top: 1em;
 }
+
+.post-share {
+  
+  .share-text-prefix {
+    font-weight: bold;
+  }
+
+  .share-ref {
+    display: inline-block;
+    text-decoration: none;
+    
+    max-height: 34px;
+  }
+
+   .share-icon {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border: 0 none;
+
+    width: 34px;
+    height: 34px;
+    padding: 0;
+  }
+}

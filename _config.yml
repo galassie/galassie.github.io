@@ -26,6 +26,20 @@ author:
   github: https://github.com/galassie
   linkedin: https://www.linkedin.com/in/enricogalassi
 
+post-social-share:
+  twitter:
+    enable: true
+    icon: twitter-icon.png
+  facebook:
+    enable: true
+    icon: facebook-icon.png
+  googleplus:
+    enable: true
+    icon: googleplus-icon.png
+  linkedin:
+    enable: true
+    icon: linkedin-icon.png
+
 github: [metadata]
 repository: galassie/galassie.github.io
 
