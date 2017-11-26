@@ -7,6 +7,14 @@
 </a>
 {% endif %}
 
+{% if site.author.twitter %}
+<a id="twitter-link"
+   class="icon" title="Twitter Profile" aria-label="Twitter Profile"
+   href="{{ site.author.twitter }}">
+  {% include svg/twitter.svg %}
+</a>
+{% endif %}
+
 {% if site.author.linkedin %}
 <a id="linkedin-link"
    class="icon" title="Linkedin Profile" aria-label="Linkedin Profile"
@@ -14,7 +22,6 @@
   {% include svg/linkedin.svg %}
 </a>
 {% endif %}
-
 
 {% if site.author.email %}
 <a id="email-link"
