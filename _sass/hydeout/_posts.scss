@@ -114,5 +114,10 @@ button.disqus-load {
     width: 34px;
     height: 34px;
     padding: 0;
+    
+    transition: transform 0.25s;              
+    &:hover {
+      transform: scale3d(1.20,1.20,1);
+    }
   }
 }
