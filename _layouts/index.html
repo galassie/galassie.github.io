@@ -24,6 +24,8 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}">Read More&hellip;</a>
       {% endif %}
     </div>
+    
+    {% include post-tags.html post=post %}
   </article>
   {% endfor %}
 
