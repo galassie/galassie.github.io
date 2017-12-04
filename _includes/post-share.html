@@ -1,22 +1,26 @@
 <div class="post-share">
     <h4 class="share-text-prefix">Share this post:</h4>
 
-    {% if site.post-social-share.twitter.enable %}
+    {% if site.post-share.twitter.enable %}
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ site.url }}{{ page.url }}" class="share-ref"
         title="Share on Twitter" target="_blank">
-        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-social-share.twitter.icon }}" alt="Twitter">
+        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-share.twitter.icon }}" alt="Twitter">
     </a>
-    {% endif %} {% if site.post-social-share.facebook.enable %}
+    {% endif %} {% if site.post-share.facebook.enable %}
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="share-ref" title="Share on Facebook" target="_blank">
-        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-social-share.facebook.icon }}" alt="Facebook">
+        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-share.facebook.icon }}" alt="Facebook">
     </a>
-    {% endif %} {% if site.post-social-share.googleplus.enable %}
+    {% endif %} {% if site.post-share.googleplus.enable %}
     <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="share-ref" title="Share on Google+" target="_blank">
-        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-social-share.googleplus.icon }}" alt="Google+">
+        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-share.googleplus.icon }}" alt="Google+">
     </a>
-    {% endif %} {% if site.post-social-share.linkedin.enable %}
+    {% endif %} {% if site.post-share.linkedin.enable %}
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" class="share-ref" title="Share on LinkedIn" target="_blank">
-        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-social-share.linkedin.icon }}" alt="Linkedin">
+        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-share.linkedin.icon }}" alt="Linkedin">
+    </a>
+    {% endif %} {% if site.post-share.whatsapp.enable %}
+    <a href="whatsapp://send?text={{ site.url }}{{ page.url }}" data-action="share/whatsapp/share" class="share-ref" title="Share on WhatsApp" target="_blank">
+        <img class="share-icon" src="{{ site.baseurl }}/assets/img/{{ site.post-share.whatsapp.icon }}" alt="WhatsApp">
     </a>
     {% endif %}
 </div>

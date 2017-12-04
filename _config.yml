@@ -27,7 +27,7 @@ author:
   twitter: https://twitter.com/enricogalassi88
   linkedin: https://www.linkedin.com/in/enricogalassi
 
-post-social-share:
+post-share:
   twitter:
     enable: true
     icon: twitter-icon.png
@@ -40,6 +40,9 @@ post-social-share:
   linkedin:
     enable: true
     icon: linkedin-icon.png
+  whatsapp:
+    enable: true
+    icon: whatsapp-icon.png
 
 github: [metadata]
 repository: galassie/galassie.github.io
