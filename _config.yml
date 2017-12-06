@@ -17,7 +17,7 @@ title: Enrico Galassi
 description: >- # this means to ignore newlines until "baseurl:"
   A blog on .NET technologies, software design, development and more.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://galassie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://galassie.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
 author:
   name: Enrico Galassi
