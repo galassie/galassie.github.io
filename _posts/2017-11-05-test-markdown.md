@@ -3,8 +3,7 @@ layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
 date: 2017-11-05 08:57:00 GMT
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+published: false
 ---
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
