@@ -1,5 +1,7 @@
 <div class="post-meta">
   <span class="post-date">{{ include.post.date | date_to_string }}</span>
+  <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
+  <span class="disqus-comment-count" data-disqus-url="{{ site.baseurl }}{{ post.url }}"></span>
   <span class="post-categories">
     {% for category in include.post.categories %}
       &bull;
