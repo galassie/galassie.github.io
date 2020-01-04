@@ -1,5 +1,4 @@
 baseurl = ""
-relativeurls = true
 languageCode = "en-us"
 title = "Enrico Galassi's Blog"
 theme = "beautifulhugo"
