@@ -1,4 +1,5 @@
-baseurl = "https://galassie.github.io/"
+baseurl = ""
+relativeurls = true
 languageCode = "en-us"
 title = "Enrico Galassi's Blog"
 theme = "beautifulhugo"
